@@ -69,7 +69,7 @@ func TestUnmarshalSOAPWtihNameSpace(t *testing.T) {
 	t.Logf("%+v", v.Body.Content)
 }
 
-func TestAbstructResponse(t *testing.T) {
+func TestAbstractResponse(t *testing.T) {
 	v := SOAPEnvelope{
 		Body: SOAPBody{
 			Content: &ConcreteResponse{
@@ -88,7 +88,7 @@ func TestAbstructResponse(t *testing.T) {
 	t.Logf("\n%s", string(buf1))
 }
 
-func TestUnmarshalAbstructResponse(t *testing.T) {
+func TestUnmarshalAbstractResponse(t *testing.T) {
 	testxml := []byte(`
     <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope">
       <Body>
