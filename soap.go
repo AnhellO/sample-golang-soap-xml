@@ -1,6 +1,6 @@
 package gosoap
 
-import "github.com/achiku/xml"
+import "encoding/xml"
 
 // SOAPEnvelope envelope
 type SOAPEnvelope struct {

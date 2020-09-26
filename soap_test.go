@@ -1,9 +1,8 @@
 package gosoap
 
 import (
+	"encoding/xml"
 	"testing"
-
-	"github.com/achiku/xml"
 )
 
 func TestXMLNameSpace(t *testing.T) {

@@ -1,11 +1,10 @@
 package gosoap
 
 import (
+	"encoding/xml"
 	"io/ioutil"
 	"net/http"
 	"regexp"
-
-	"github.com/achiku/xml"
 )
 
 // ProcessBRequest struct
